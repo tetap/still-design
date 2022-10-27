@@ -1,0 +1,11 @@
+{
+  "name": "@still-design/utils",
+  "version": "1.0.0",
+  "description": "still-design工具类",
+  "scripts": {},
+  "author": "tetap",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.2.41"
+  }
+}
