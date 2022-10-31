@@ -1,7 +1,11 @@
 <template>
-  <div class="alert" style="background: red">Alert</div>
+  <div class="alert">Alert123</div>
 </template>
 
 <script lang="ts" setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.alert {
+  background-color: black;
+}
+</style>

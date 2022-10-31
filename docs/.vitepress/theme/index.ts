@@ -2,7 +2,7 @@ import { App, Component } from 'vue'
 import Demo from '../../components/Demo.vue'
 import Theme from 'vitepress/theme'
 import { extractFileNameFromPath } from '../../utils'
-// import '@still-design/components/dist/index.css'
+import '@still-design/components/dist/index.css'
 
 export default {
   ...Theme,

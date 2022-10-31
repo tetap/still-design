@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [vue(), vueJsx(), dts()],
   build: {
     sourcemap: false,
+    cssCodeSplit: false,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'still-design',
