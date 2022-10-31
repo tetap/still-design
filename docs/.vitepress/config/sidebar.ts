@@ -1,10 +1,18 @@
 export default {
-  '/zh-CN/guide/': [
+  '/guide/components': [
     {
-      text: '快速开始',
+      text: 'Components',
       collapsible: true,
       collapsed: false,
-      items: [{ text: '安装', link: '/zh-CN/guide/install' }]
+      items: [{ text: 'Alert', link: '/guide/components/alert' }]
+    }
+  ],
+  '/guide/getting-started': [
+    {
+      text: '快速上手',
+      collapsible: true,
+      collapsed: false,
+      items: [{ text: '安装', link: '/guide/getting-started/installation' }]
     }
   ]
 }

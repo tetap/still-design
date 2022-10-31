@@ -7,12 +7,15 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /zh-CN/guide/install
+      link: /guide/getting-started/installation
 features:
   - icon: ⚡️
     title: 便捷
     details: 开箱即用，所有组件支持全量引入和按需引入。
-  - icon: 📦
-    title: 丰富的组件
-    details: 提供丰富的组件用于构建企业门户网站
+  - icon: 🌈
+    title: 设计
+    details: 提供整洁且精心制作的 UI 组件来构建企业门户网站UI。
+  - icon: 🔋
+    title: SSR
+    details: 支持服务器端渲染
 ---

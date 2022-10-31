@@ -1,20 +1,19 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "esnext",
+    "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "allowJs": true,
-    "baseUrl": "./",
-    "paths": {
-      "@still-ui/*": ["./*"]
-    }
+    "skipLibCheck": true
   },
-  "include": ["packages", "docs", "typings/*.ts"],
+  "include": ["./components", "./.vitepress/**/*.ts", "./env.d.ts"],
   "exclude": ["node_modules"]
 }
