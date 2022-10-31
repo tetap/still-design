@@ -15,7 +15,8 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
-    footer
+    footer,
+    socialLinks: [{ icon: 'github', link: 'https://github.com/tetap/still-design' }]
   },
   markdown: {
     theme: 'dracula',
@@ -46,7 +47,9 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@still-design/components': fileURLToPath(new URL('../../packages/components', import.meta.url))
+        '@still-design/components': fileURLToPath(
+          new URL('../../packages/components', import.meta.url)
+        )
       }
     }
   }
