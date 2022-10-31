@@ -4,6 +4,10 @@
   "description": "一个基于VUE3的组件库",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "dev": "concurrently \"pnpm components:dev\" \"pnpm docs:dev\"",
+    "build": "components:build && docs:build",
+    "components:dev": "pnpm run -C packages/components dev",
+    "components:build": "pnpm run -C packages/components build",
     "docs:dev": "pnpm run -C docs dev",
     "docs:build": "pnpm run -C docs build",
     "docs:serve": "pnpm run -C docs serve"
@@ -16,6 +20,7 @@
     "@typescript-eslint/parser": "^5.41.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.2",
+    "concurrently": "^7.5.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",

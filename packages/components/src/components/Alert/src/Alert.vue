@@ -1,5 +1,5 @@
 <template>
-  <div class="alert" style="background: blue">Alert123</div>
+  <div class="alert" style="background: red">Alert</div>
 </template>
 
 <script lang="ts" setup></script>

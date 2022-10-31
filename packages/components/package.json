@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vue-tsc --noEmit && vite build --watch --emptyOutDir",
-    "build": "vite build && vue-tsc --noEmit",
-    "preview": "vite preview"
+    "build": "vite build && vue-tsc --noEmit"
   },
   "dependencies": {
     "path": "^0.12.7",
